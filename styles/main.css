@@ -1,3 +1,15 @@
+:root {
+    --main-bg: #0a2640;
+    --header-circle-bg: #1c3d5b;
+    --Light-Grey: #f1f1f1;
+    --Green: #65e4a3;
+    --Gray: #777;
+    --Dark-Blue: #0a2640;
+    --Green: #65e4a3;
+}
+
+/* RESET START */
+
 * {
     margin: 0;
     padding: 0;
@@ -45,3 +57,5 @@ textarea {
     line-height: 1.15;
     margin: 0;
 }
+
+/* RESET END */

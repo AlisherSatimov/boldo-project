@@ -295,6 +295,54 @@ textarea {
 
 /* HEADER END */
 
+/* INPUT EMAIL ADDRESS SECTION START */
+
+.an_enterprise {
+    height: 391px;
+    margin: 84px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    background-color: var(--main-bg);
+    background-image: url(../images/hompage/an_enterprise_bg_img.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.send_email_form {
+    display: flex;
+    gap: 24px;
+}
+
+.an_enterprise input[type="email"] {
+    width: 370px;
+    height: 56px;
+    color: #000;
+    padding-left: 32px;
+
+    /* Paragraphs/Text S */
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    border-radius: 240px;
+    border: 2px solid #fff;
+    background: #fff;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.an_enterprise button {
+    cursor: pointer;
+}
+
+/* INPUT EMAIL ADDRESS SECTION END */
+
 /* FOOTER START */
 
 .main_footer {

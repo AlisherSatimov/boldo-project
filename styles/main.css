@@ -295,6 +295,44 @@ textarea {
 
 /* HEADER END */
 
+/* OUR - BLOG - HOMEPAGE - SECTION START */
+
+.value_proposition {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.our_blog_hompage .headings_xxl {
+    color: #000;
+}
+
+.category {
+    text-align: left;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.category img {
+    height: 209px;
+    border-radius: 24px;
+}
+
+.category_date {
+    color: var(--Dark-Blue);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.category_date .paragraphs_xs {
+    color: var(--Gray);
+}
+
+/* OUR - BLOG - HOMEPAGE - SECTION END */
+
 /* INPUT EMAIL ADDRESS SECTION START */
 
 .an_enterprise {

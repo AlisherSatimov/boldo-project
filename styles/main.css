@@ -59,3 +59,156 @@ textarea {
 }
 
 /* RESET END */
+
+/* GLOBAL CLASSES START */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.heading-xxxl {
+    color: #fff;
+
+    /* Headings/TextXXXL */
+    font-family: "Manrope";
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 84px;
+}
+
+.headings-xxl-white {
+    color: #fff;
+
+    /* Headings/Text XXL */
+    font-family: "Manrope";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 72px;
+}
+
+.headings-xl {
+    color: #000;
+
+    /* Headings/Text XL */
+    font-family: "Manrope";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 56px;
+}
+
+.heading-l {
+    color: #fff;
+
+    /* Headings/Text L */
+    font-family: "Manrope";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.paragraphs-xs {
+    color: var(--Light-Grey);
+
+    /* Paragraphs/Text XS */
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.paragraphs-m {
+    color: #000;
+
+    /* Paragraphs/Text M */
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.paragraphs-s {
+    color: var(--Gray, #777);
+
+    /* Paragraphs/Text S */
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.explore_page {
+    color: #0a2640;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+
+    border-bottom: 1px solid #0a2640;
+    width: fit-content;
+    transition: 0.3s;
+
+    &::after {
+        font-family: "Font Awesome 5 Free";
+        content: "\f061";
+        padding-left: 12px;
+        vertical-align: middle;
+    }
+
+    &:hover {
+        color: #65e4a3;
+        border-color: red;
+    }
+}
+
+.green_button {
+    color: var(--Dark-Blue);
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+
+    display: inline-flex;
+    padding: 16px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 56px;
+    border: 2px solid #69e6a6;
+    background: var(--Green, #65e4a3);
+}
+
+.transparent_button {
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+
+    display: inline-flex;
+    padding: 16px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 56px;
+    border: 2px solid #fff;
+}
+
+.dark_blue_button {
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+
+    display: inline-flex;
+    padding: 16px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 56px;
+    border: 2px solid var(--Dark-Blue);
+    background: var(--Dark-Blue);
+}
+
+/* GLOBAL CLASSES END */

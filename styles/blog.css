@@ -1,0 +1,27 @@
+/********** HEADER START **********/
+
+.header_blog {
+    width: 100%;
+}
+
+.header_blog li {
+    color: var(--Dark-Blue);
+}
+
+.header_blog .login_button {
+    border-color: var(--Dark-Blue);
+}
+
+/* HEADER END */
+
+/********** LATEST - NEWS - SECTION START **********/
+
+/* style */
+
+/* LATEST - NEWS - SECTION END */
+
+/********** INPUT EMAIL ADDRESS SECTION START **********/
+
+/* style */
+
+/* INPUT EMAIL ADDRESS SECTION END */

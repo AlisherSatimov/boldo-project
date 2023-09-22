@@ -302,6 +302,7 @@ textarea {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 12px;
     padding: 40px 0;
 }
@@ -311,10 +312,12 @@ textarea {
 }
 
 .cards {
+    width: 1000px;
     display: flex;
     justify-content: center;
     gap: 50px;
     padding: 79px 0 84px;
+    flex-wrap: wrap;
 }
 
 .category {

@@ -16,12 +16,31 @@
 
 /********** LATEST - NEWS - SECTION START **********/
 
-/* style */
+.latest_news_container {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
 
-/* LATEST - NEWS - SECTION END */
+.latest_news_container .headings_xxl {
+    color: #000;
+    padding: 40px 0;
+}
 
-/********** INPUT EMAIL ADDRESS SECTION START **********/
+.latest_news_container .cards {
+    padding: 0;
+}
 
-/* style */
+.latest_news_container .category {
+    padding: 0 0 68px;
+}
+
+.load_more {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    padding: 16px 0 40px;
+}
 
 /* INPUT EMAIL ADDRESS SECTION END */

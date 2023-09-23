@@ -1,14 +1,72 @@
 /********** HEADER START **********/
 
 .header_about {
-    width: 100%;
-    height: 615px;
-    background: var(--main-bg);
+  width: 100%;
+  height: 615px;
+  background: var(--main-bg);
+}
+
+.showcase_about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.showcase_about_text_top {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 32px;
+  color: rgba(241, 241, 241, 1);
+  margin-bottom: 12px;
+}
+.showcase_about_title {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 84px;
+  margin-bottom: 17px;
+}
+
+.showcase_about_text_down {
+  color: var(--Light-Grey, #f1f1f1);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 28px;
 }
 
 /* HEADER END */
 
 /********** OUR - PICTURES - SECTION START **********/
+
+.our_pictures {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 400px 300px;
+  grid-row-gap: 20px;
+  grid-column-gap: 10px;
+  margin-top: -100px;
+}
+
+.our_images {
+  width: 300px;
+  height: 285px;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+}
+
+.our_images:last-child {
+  grid-column: 2 / 4;
+  margin-right: 60px;
+}
+
+.our_images_second {
+  width: 400px;
+  height: 602px;
+}
 
 /* style */
 
@@ -16,11 +74,89 @@
 
 /********** OUR - STORY - SECTION START **********/
 
+.our_story {
+  margin-top: -300px;
+  margin-left: 200px;
+}
+.our_story_text_top {
+  color: var(--Gray, #777);
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 12px;
+}
+.our_sotory_title {
+  color: #000;
+  font-family: Manrope;
+  font-size: 3.1rem;
+  font-weight: 400;
+  line-height: 72px;
+  margin-bottom: 30px;
+}
+.our_story_text_down {
+  color: var(--Gray, #777);
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 96px;
+}
+
 /* style */
 
 /* OUR - STORY - SECTION END */
 
 /********** OUR - NUMBERS - SECTION START **********/
+
+.our_numbers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main-bg);
+  height: 564px;
+  margin-bottom: 96px;
+}
+
+.our_numbers_texts_top {
+  text-align: center;
+}
+.our_numbers_text_top {
+  color: var(--Light-Grey, #f1f1f1);
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 12px;
+}
+
+.our_numbers_title {
+  color: #fff;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 3.1rem;
+  font-weight: 400;
+  line-height: 72px;
+  margin-bottom: 82px;
+}
+
+.our_numbers_count {
+  display: flex;
+  gap: 141px;
+}
+
+.our_numbers_sum {
+  color: #4fe9a4;
+  font-family: Manrope;
+  font-size: 5.5rem;
+  font-weight: 400;
+  line-height: 56px;
+  margin-bottom: 32px;
+}
+.our_numbers_text_down {
+  color: var(--Light-Grey, #f1f1f1);
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 36px;
+}
 
 /* style */
 

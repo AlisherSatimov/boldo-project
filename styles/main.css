@@ -293,6 +293,70 @@ textarea {
     line-height: 28px;
 }
 
+.header_homepage {
+    background-image: url(../images/hompage/header_bg_img.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.showcase_hompage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+}
+
+.showcase_title {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.showcase_buttons {
+    display: flex;
+    gap: 24px;
+    padding-top: 24px;
+}
+
+.showcase_diogram_img {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.second_third_images {
+    display: flex;
+    gap: 38.56px;
+}
+
+.showcase_first_img {
+    width: 493.858px;
+}
+
+.showcase_second_img {
+    width: 192.175px;
+}
+
+.showcase_third_img {
+    width: 261.959px;
+}
+
+.brandr_img {
+    width: 1120px;
+    display: flex;
+    margin: 75px auto 0;
+    justify-content: center;
+}
+
+.brandr_img img {
+    height: 42px;
+}
+
+.brands_space {
+    margin-left: 10px;
+}
+
 /* HEADER END */
 
 /* OUR - BLOG - HOMEPAGE - SECTION START */

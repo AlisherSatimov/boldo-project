@@ -1,4 +1,4 @@
-/********** HEADER START **********/
+/********** HEADER BLOG START **********/
 
 .header_blog {
     width: 100%;
@@ -12,16 +12,154 @@
     border-color: var(--Dark-Blue);
 }
 
-/* HEADER END */
+/* start coding here start */
+
+.showcase_blog {
+    display: flex;
+    width: 888px;
+    height: 183px;
+    margin-top: 73px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.titlee {
+    color: var(--Dark-Blue, #0A2640);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.texts {
+    color: var(--Dark-Blue, #0A2640);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 84px;
+}
+
+/* Category */
+
+.Data {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 40px;
+}
+
+.data-img {
+    width:  70%;
+    height: 70%;
+    margin-top: 40px;
+}
+
+.title-data {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+
+.h4-title {
+    color: var(--Dark-Blue, #0A2640);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.namber {
+    color: var(--Gray, #777);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.title-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.h2-title {
+    width:  500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+
+    color: #000;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+}
+
+.chandler {
+    width: 32px;
+    height: 32px;
+    display: flex;
+}
+
+.chandler-h4 {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.line {
+    margin-top: 52px;
+    width: 1200px;
+    height: 1.5px;
+}
+
+/* Category end */
+
+/* start coding here start end */
+
+/* HEADER BLOG END */
 
 /********** LATEST - NEWS - SECTION START **********/
 
-/* style */
+.latest_news_container {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
 
-/* LATEST - NEWS - SECTION END */
+.latest_news_container .headings_xxl {
+    color: #000;
+    margin-top: 170px;
+    padding: 40px 0;
+}
 
-/********** INPUT EMAIL ADDRESS SECTION START **********/
+.latest_news_container .cards {
+    padding: 0;
+}
 
-/* style */
+.latest_news_container .category {
+    padding: 0 0 68px;
+}
+
+.load_more {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    padding: 16px 0 40px;
+}
 
 /* INPUT EMAIL ADDRESS SECTION END */

@@ -72,6 +72,11 @@ textarea {
     margin: 0 auto;
 }
 
+.container_small {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .heading_xxxl {
     color: #fff;
 
@@ -102,7 +107,7 @@ textarea {
     line-height: 56px;
 }
 
-.heading_l {
+.headings_l {
     color: #fff;
 
     /* Headings/Text L */

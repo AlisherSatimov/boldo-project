@@ -680,6 +680,43 @@ textarea {
 
 /* AN - ENTERPRICE - TEMPLATE - SECTION END */
 
+/* FREQUENTLY - ASKED - QUESTIONS - SECTION START */
+
+.faq_section_content {
+    display: flex;
+    justify-content: space-between;
+    padding: 56px 0 118px;
+}
+
+.faq_questions {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.faq_questions .paragraphs_s {
+    width: 500px;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.faq_questions .fa-chevron-down {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    color: #fff;
+    background-color: var(--Dark-Blue);
+}
+
+/* FREQUENTLY - ASKED - QUESTIONS - SECTION END */
+
 /* OUR - BLOG - HOMEPAGE - SECTION START */
 
 .value_proposition {

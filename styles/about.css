@@ -125,6 +125,7 @@
 
 .our_numbers_texts_top .paragraphs_s {
     color: #fff;
+    margin-bottom: 12px;
 }
 
 .our_numbers_title {
@@ -161,17 +162,81 @@
 
 /* OUR - NUMBERS - SECTION END */
 
-/* PASI ABDULAZIZGA ****************************************************************************/
-
 /********** OUR - TEAM - SECTION START **********/
 
-/* style */
+.our_team_content {
+    width: 760px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.our_team .headings_xxl {
+    color: #000;
+    padding: 12px 0 22px;
+}
+
+.our_team_mambers {
+    display: flex;
+    justify-content: space-between;
+    padding: 56px 0;
+}
+
+.our_team_mamber {
+    width: 300px;
+}
+
+.our_team_mamber .headings_l {
+    color: #000;
+    padding: 24px 0 12px;
+}
 
 /* OUR - TEAM - SECTION END */
 
 /********** OUR - VALUES - SECTION START **********/
 
-/* style */
+.our_values {
+    width: 100%;
+    background-color: #0a2640;
+    color: #fff;
+    padding: 120px 0 120px;
+    margin-bottom: 120px;
+}
+
+.our_values_content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.our_values_content ul {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    padding: 72px 0 0;
+}
+
+.our_values_content .paragraphs_s {
+    color: #fff;
+}
+
+.our_values_content .headings_xxl {
+    padding: 12px 0 22px;
+}
+
+.our_values_list {
+    display: flex;
+    gap: 50px;
+}
+
+.our_values_list img {
+    width: 150px;
+}
+
+.our_values_list_content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
 
 /* OUR - VALUES - SECTION END */
 

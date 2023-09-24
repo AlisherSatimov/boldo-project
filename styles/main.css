@@ -462,13 +462,6 @@ textarea {
     display: flex;
     align-items: center;
     gap: 27px;
-
-    /* &::before {
-        content: "";
-        width: 36px;
-        height: 36px;
-        fill: #0a2640;
-    } */
 }
 
 .more_income_content li .fa-check {
@@ -484,6 +477,103 @@ textarea {
 
 .more_income_content li:last-child {
     margin-bottom: 16px;
+}
+
+.agile_development {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.agile_development_content .headings_xl {
+    margin-bottom: 60px;
+}
+
+.we_connect_list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.we_connect_list_item {
+    width: 500px;
+    height: 68px;
+    gap: 14px;
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.08);
+    padding-left: 26px;
+}
+
+.item_dark_blue {
+    background: var(--Dark-Blue);
+    color: #fff;
+}
+
+.agile_development_img {
+    width: 444px;
+    height: 692px;
+    position: relative;
+}
+
+.img_piechart {
+    width: 291px;
+    height: 388px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+    position: absolute;
+    top: 304px;
+    right: 105px;
+}
+
+.img_piechart img {
+    width: 173.469px;
+}
+
+.piechart_persent {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.piechart_persent li {
+    color: #000;
+    font-family: "Manrope";
+    font-size: 13.878px;
+    font-weight: 400;
+    line-height: 23.79px;
+}
+
+.piechart_persent span {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.aqua_circle {
+    background-color: #0dbbfc;
+}
+
+.green_circle {
+    background-color: #69e6a6;
+}
+
+.grey_circle {
+    background-color: #c4c4c4;
 }
 
 /* OUR - SERVICES - SECTION END */

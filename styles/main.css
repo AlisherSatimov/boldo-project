@@ -359,6 +359,38 @@ textarea {
 
 /* HEADER END */
 
+/* OUR - SERVICES - SECTION START */
+
+.our_services {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.our_services .headings_xxl {
+    color: #000;
+    padding-top: 12px;
+}
+
+.cool_feature_cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0;
+}
+
+.cool_feature_card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 12px;
+}
+
+.cool_feature_card img {
+    margin-bottom: 12px;
+}
+
+/* OUR - SERVICES - SECTION END */
+
 /* OUR - BLOG - HOMEPAGE - SECTION START */
 
 .value_proposition {

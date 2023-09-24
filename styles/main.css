@@ -259,6 +259,10 @@ textarea {
     background: var(--Green);
 }
 
+.tx-c {
+    text-align: center;
+}
+
 /* GLOBAL CLASSES END */
 
 /* HEADER START */
@@ -362,7 +366,6 @@ textarea {
 /* OUR - SERVICES - SECTION START */
 
 .our_services {
-    text-align: center;
     margin-top: 80px;
 }
 
@@ -374,19 +377,113 @@ textarea {
 .cool_feature_cards {
     display: flex;
     justify-content: space-between;
-    margin: 80px 0;
+    padding: 80px 0;
 }
 
 .cool_feature_card {
     width: 300px;
     display: flex;
     flex-direction: column;
-    text-align: left;
     gap: 12px;
 }
 
 .cool_feature_card img {
     margin-bottom: 12px;
+}
+
+.more_income_in_june {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 120px 0;
+}
+
+.more_income_img {
+    width: 494px;
+    height: 610px;
+    position: relative;
+}
+
+.img_diogram {
+    width: 251px;
+    height: 388px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.12);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 222px;
+    left: 186px;
+}
+
+.img_diogram img {
+    width: 170px;
+    height: 227.21px;
+    margin-bottom: 20px;
+}
+
+.persentage_june {
+    width: 170px;
+    color: var(--Dark-Blue);
+    font-family: "Manrope";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36.267px;
+}
+
+.more_income_text {
+    width: 170px;
+    color: var(--Dark-Blue);
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.more_income_content {
+    width: 494px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.more_income_content ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.more_income_content li {
+    color: #000;
+    display: flex;
+    align-items: center;
+    gap: 27px;
+
+    /* &::before {
+        content: "";
+        width: 36px;
+        height: 36px;
+        fill: #0a2640;
+    } */
+}
+
+.more_income_content li .fa-check {
+    width: 36px;
+    height: 36px;
+    background-color: #0a2640;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more_income_content li:last-child {
+    margin-bottom: 16px;
 }
 
 /* OUR - SERVICES - SECTION END */
